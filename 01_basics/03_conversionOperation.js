@@ -56,7 +56,27 @@ let str3 = str1 + str2
 console.log(str3);
 
 console.log("1"+ 2);
+// if there is string at first then every thing after that will be converted into string
 console.log(1 + "2");
 console.log("1" + "2");
 console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log(1 + 2 + "2");// if string is in last then the conversion wion will occur then the string
+
+console.log(+true);// not recommended
+console.log(+"");//not preffered
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+let gameCounters = 100
+++gameCounters;
+console.log(gameCounters);
+
+//link to documentation
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
