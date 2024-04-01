@@ -1,2 +1,1 @@
-
-let str1 = "H
+object
